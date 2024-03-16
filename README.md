@@ -2,12 +2,19 @@
 
 Codeflare and ray setup for distributed training on OpenShift
 
+Overview:
+1. import CodeFlare-Notebook image from Quay.io
+1. Luanch
+
 ## Getting Started
 
 As a cluster-admin you can import new notebook images.
 
 Import the CodeFlare-Notebook image from `quay.io/project-codeflare/notebook:latest`
 ![images](docs/import-notebook.png)
+
+Launch a workbench with CodeFlare notebook image
+
 
 Launch a `Terminal`
 ![images](docs/jupyter-terminal.png)
@@ -25,11 +32,13 @@ Copy and Paste your oc login command
 Upgrade pip and the latest codeflare
 ![images](docs/pip-install.png)
 
+Launch one of the notebooks in the codeflare-sdk > demo-notebooks > guided-demos
+
 [!NOTE]
-Import and add the following to mute the warnings
+Import and add the following to mute the warnings in the notebooks
 ```
 import warnings
 warnings.filterwarnings('ignore')
 ```
 
-See the documentation for the different examples
+See the codeflare-sdk > demo-notebooks > guided-demos for the different examples
