@@ -8,6 +8,8 @@ Overview:
 
 ## Getting Started
 
+To provision the cluster I followed these steps [demo-ai-gitops-catalog](https://github.com/redhat-na-ssa/demo-ai-gitops-catalog?tab=readme-ov-file#bootstrapping-a-cluster)
+
 As a cluster-admin you can import new notebook images.
 
 Import the CodeFlare-Notebook image from `quay.io/project-codeflare/notebook:latest`
